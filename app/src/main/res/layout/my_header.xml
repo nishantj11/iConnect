@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="120dp"
+    android:background="@color/RoyalBlue">
+
+
+    <TextView
+        android:id="@+id/useremail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:textSize="20sp"
+        android:layout_toRightOf="@+id/imageView6"
+        android:textStyle="bold"
+        android:layout_centerVertical="true"
+        android:text="Hello, Admin"
+        android:textColor="@color/White"/>
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_marginLeft="20sp"
+        android:layout_centerVertical="true"
+        app:srcCompat="@drawable/account" />
+
+</RelativeLayout>
